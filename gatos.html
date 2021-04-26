@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><h1>Cat photo app</h1></title>
+    </head>
+    <body>
+        <main>
+            <h1>CatPhotoApp</h1>
+            <p>Click here to viev more <a href="#">cat photos</a></p>
+            <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="Imagenes de gatos"></a>
+            <div>
+                <p>Things cats love:</p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>lase pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <p>Top 3 things cats hate:</p>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+            </div>
+            <div>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <label for="indoor">
+                        <input type="radio" value="indoor" name="indoor-outdoor" checked>Indoor
+                    </label>
+                    <label for="outdoor">
+                        <input type="radio" value="outdoor" name="indoor-outdoor">outdoor
+                    </label>
+                    <br>
+                    <label for="loving">
+                        <input type="checkbox" name="personality" id="loving" value="loving" checked>Loving
+                    </label>
+                    <label for="lazy">
+                        <input type="checkbox" name="personality" id="lazy" value="lazy">Lazy
+                    </label>
+                    <label for="energetic">
+                        <input type="checkbox" name="personality" id="energetic" value="energetic">Energetic
+                    </label>
+                    <br>
+                    <input type="text" placeholder="cat photo URL" required>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </main>
+    </body>
+
+</html>
